@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2? family= Roboto:ital@1 & display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(63.25deg, #918a51 -0.55%, #3468a7 95.6%);
+}
+
+.container {
+  background: #ffd464;
+  color: #000000;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 400px;
+  max-height: 160px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 460px;
+}
+
+.titulo {
+  margin-left: 15px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.menu {
+  background: linear-gradient(245.63deg, #ffefc5 31.09%, #f7f7f7 100.58%);
+  color: #000000;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px #0e1d2f;
+  padding: 64px;
+}
+
+.projeto-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: left;
+  line-height: 56px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #000000 27.26%, #6c6a55 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f7f7f7;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+  border-radius: 100px;
+}
